@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
@@ -7,4 +7,47 @@ body {
 
 h1 {
   color: #333;
+  text-align: center;
+}
+
+#countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  justify-content: space-evenly;
+  border: 1px red solid;
+  padding-bottom: 20px;
+}
+
+.banderas {
+  width: auto;
+  height: 40px;
+}
+
+.contenedorInfo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px blue solid;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  width: 300px;
+  height: 300px;
+}
+
+.divInfo {
+}
+
+.bandera {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.botonCerrar {
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 0%;
+  margin-bottom: 10px;
 }
